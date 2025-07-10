@@ -1,0 +1,55 @@
+
+
+/*home part*/
+
+@import url(./settings.css);
+@import url(./partials/home-style/style-xl-responsive.css);
+@import url(./partials/home-style/style-lg-responsive.css);
+@import url(./partials/home-style/style-md-responsive.css);
+@import url(./partials/home-style/style-sm-responsive.css);
+@import url(./partials/home-style/style-xs-responsive.css);
+
+
+/*resume part*/
+
+@import url(./partials/resume-style/style-xl-responsive.css);
+@import url(./partials/resume-style/style-lg-responsive.css);
+@import url(./partials/resume-style/style-md-responsive.css);
+@import url(./partials/resume-style/style-sm-responsive.css);
+@import url(./partials/resume-style/style-xs-responsive.css);
+
+
+/*service part*/
+
+@import url(./partials/service-style/style-xl-responsive.css);
+@import url(./partials/service-style/style-lg-responsive.css);
+@import url(./partials/service-style/style-md-responsive.css);
+@import url(./partials/service-style/style-sm-responsive.css);
+@import url(./partials/service-style/style-xs-responsive.css);
+
+
+/*designs part*/
+
+@import url(./partials/designs-style/style-xl-responsive.css);
+@import url(./partials/designs-style/style-lg-responsive.css);
+@import url(./partials/designs-style/style-md-responsive.css);
+@import url(./partials/designs-style/style-sm-responsive.css);
+@import url(./partials/designs-style/style-xs-responsive.css);    
+
+
+/*belogs part*/
+
+@import url(./partials/blogs-style/style-xl-responsive.css);
+@import url(./partials/blogs-style/style-lg-responsive.css);
+@import url(./partials/blogs-style/style-md-responsive.css);
+@import url(./partials/blogs-style/style-sm-responsive.css);
+@import url(./partials/blogs-style/style-xs-responsive.css);
+
+
+/*conect part*/
+
+@import url(./partials/conect-style/style-xl-responsive.css);
+@import url(./partials/conect-style/style-lg-responsive.css);
+@import url(./partials/conect-style/style-md-responsive.css);
+@import url(./partials/conect-style/style-sm-responsive.css);
+@import url(./partials/conect-style/style-xs-responsive.css);

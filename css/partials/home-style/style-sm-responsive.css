@@ -1,0 +1,300 @@
+
+@media (min-width:576px) and (max-width:767px) {
+    
+/*menu part*/
+
+div.menu{
+    width: 99%;
+    height: 70px;
+    display: flex;
+    margin: 0 auto;
+    position:sticky;
+    top:0;
+    z-index: 200;
+    background-color:rgb(46, 202, 127);
+    
+
+
+
+>input{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    left:20px;
+    display: none;
+    z-index: 100;
+}
+
+label> span > img{
+    width: 40px;
+    height: 40px;
+   filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(23deg) brightness(103%) contrast(103%);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 200;
+    cursor: pointer;
+}
+
+
+}
+
+div.menu > div.logo{
+    width: 200px;
+    height: 70px;
+    color: white;
+
+    >h1{
+   position: absolute;
+   top: 15px;
+   right: 20px;
+}
+}
+
+div.menu > input[type="checkbox"]:checked ~ div.navbar{
+height: 500px;
+display: flex;
+}
+
+
+
+div.menu > div.navbar{
+ width: 350px;   
+display: none;
+justify-content: center;
+align-items: center;
+background-color:rgb(46, 202, 127) ;
+position: absolute;
+top: 50px;
+left: 0;
+
+
+ 
+>nav>ul{
+ display:flex;
+flex-direction: column;
+    gap: 50px;
+  
+  
+    >a{
+        list-style: none;
+        text-decoration: none;
+        font-size:16px;
+        color: rgb(124, 124, 124); 
+    }   
+}
+
+}
+
+
+#a1{
+    width: 50px;
+    color: black;
+    border-bottom:2px solid  white ;
+}
+
+div.navbar > nav >ul > a >li:hover{
+    width: 50px;
+    color: black;
+    border-bottom:  2px solid white; 
+}
+
+#a2{
+    width: 70px;
+}
+
+/*contant part*/
+
+div.personality-info-container{
+    width:99%;
+    height:700px;
+  background-color: rgb(235, 235, 235);
+    margin: 50px auto;
+    border-radius: 20px;
+    z-index:100;
+}
+
+
+div.personality-info-container > div.pit {
+    width: 100%;
+    height: 300px;
+    background-color:rgb(46, 202, 127) ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    display: flex;
+
+    >img{
+        width:280px;
+        height: 280px;
+        border: 5px solid white;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        transform-origin: bottom;
+        transition: all 300ms linear;
+
+
+
+    }
+
+}
+
+div.pit > img:hover{
+    transform: translateY(-20px);
+ width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+
+div.text{
+width: 200px;
+height: 300px;
+display: flex;
+justify-content:start;
+align-items:center;
+flex-direction: column;
+gap: 30px;
+position: absolute;
+left: 50px;
+color: white;
+    background-color:rgb(46, 202, 127) ;
+
+
+>h1{
+    font-size: 35px;
+    margin-top: 40px;
+   
+
+}
+}
+
+div.text > div.social-media{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+    position: absolute;
+    top: 120px;
+
+    >a>img{
+        width: 25px;
+        height: 25px;
+        border-radius:12.5px;
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(116deg) brightness(109%) contrast(109%);
+        
+    }
+   
+}
+
+div.personality-info-container > div.about-me{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+
+
+div.about-me > div.about-me-right{
+    width:45%;
+    height:300px;
+    padding: 20px;
+    color: rgb(68, 68, 68);
+   >h2{
+    margin: 40px 30px;
+    >span{
+ color:rgb(46, 202, 127) ;
+
+    }
+   }
+
+}
+
+div.about-me-right >h4{
+font-size: 12px;
+    font-weight:bold;
+    text-align: justify;
+>span{
+ color:rgb(46, 202, 127) ;
+    
+}
+}
+
+div.about-me-right > button{
+    width: 100px;
+    height: 40px;
+    margin: 20px 30px;
+    border-radius: 5px;
+    transform-origin: center;
+   border: 1px solid rgb(102, 255, 102);
+   background-color:white;
+  >a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+  }  
+}
+
+div.about-me-right > button:hover{
+    transform: translateZ(40px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+>a{
+ color:rgb(46, 202, 127) ;
+     
+}  
+}
+
+div.about-me > div.about-me-left{
+    width: 55%;
+    height:400px;
+    display: flex;
+ 
+
+}
+
+ div.about-me-left > div.amr{
+    width:25%;
+    height: 400px;
+ 
+     
+    >ul{
+        list-style: none;
+        text-align: center;
+        margin: 50px auto;
+       >li{
+        padding: 10px 0;
+        font-size:14px;
+    color: rgb(68, 68, 68);
+       }
+    }
+ }
+
+div.about-me-left > div.aml{
+    width: 75%;
+    height: 400px;
+
+     
+    >ul{
+        list-style: none;
+        text-align: center;
+        margin: 50px auto;
+       >li{
+        padding: 10px 0;
+        font-size:14px;
+    color: rgb(68, 68, 68);
+       }
+       >li:nth-of-type(3){
+ color:rgb(46, 202, 127) ;
+ font-size: 14px;
+       }
+    }
+ } 
+
+}

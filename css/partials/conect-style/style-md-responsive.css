@@ -1,0 +1,371 @@
+
+@media (min-width:768px) and (max-width:992px) {
+
+  /*menu part*/
+
+
+    div.menu{
+    width: 98%;
+    height: 70px;
+    display: flex;
+    position:sticky;
+    top:0;
+    z-index: 200;
+    background-color:rgb(46, 202, 127);
+    
+
+
+
+>input{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    left:20px;
+    display: none;
+    z-index: 100;
+}
+
+label> span > img{
+    width: 40px;
+    height: 40px;
+   filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(23deg) brightness(103%) contrast(103%);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 200;
+    cursor: pointer;
+
+}
+
+
+}
+
+div.menu > div.logo{
+    width: 200px;
+    height: 70px;
+    color: white;
+
+    >h1{
+   position: absolute;
+   top: 15px;
+   right: 20px;
+   font-size: 27px;
+}
+}
+
+div.menu > input[type="checkbox"]:checked ~ div.navbar{
+height: 500px;
+display: flex;
+}
+
+
+
+div.menu > div.navbar{
+ width: 350px;   
+display: none;
+justify-content: center;
+align-items: center;
+background-color:rgb(46, 202, 127) ;
+position: absolute;
+top: 50px;
+left: 0;
+
+
+ 
+>nav>ul{
+ display:flex;
+flex-direction: column;
+    gap: 50px;
+  
+  
+    >a{
+        list-style: none;
+        text-decoration: none;
+        font-size:16px;
+        color: rgb(189, 189, 189); 
+         
+    }   
+}
+
+}
+
+
+#a1{
+    width: 50px;
+    color: white;
+    border-bottom:2px solid  white ;
+  
+}
+
+div.navbar > nav >ul > a >li:hover{
+    width: 50px;
+    color:white;
+    border-bottom:  2px solid white; 
+}
+
+#a2{
+width: 70px;
+}
+
+
+/*content part*/
+
+div.conect-container{
+    width: 90%;
+    height: 1600px;
+    background-color:rgb(240, 240, 240);
+    margin: 50px auto;
+   border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+     border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+div.conect-container > div.pct{
+    width: 100%;
+    height:150px;
+    background-color: rgb(46, 202, 127) ;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    padding-top: 30px;
+
+    >h1{
+        font-size:50px;
+        color: white;
+    }
+}
+
+div.conect-container > div.pcb{
+width:100%;
+height: 1500px;
+padding: 20px;
+  border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+}
+
+
+div.pcb > div.conect-right {
+    width: 50%;
+    height: 800px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 40px;
+
+   >h2{
+      color: rgb(90, 90, 90);
+   >span{
+    color:rgb(46, 202, 127) ;
+   }
+}
+
+}
+
+
+div.pcb > div.conect-left {
+    width: 50%;
+    height: 800px;
+    padding: 20px 30px;
+    position: relative;
+
+   >h2{
+      color: rgb(90, 90, 90);
+
+   >span{
+    color:rgb(46, 202, 127) ;
+   }
+}
+
+}
+
+div.conect-right > div.mail{
+    width: 280px;
+    height: 50px;
+    display: flex;
+    >h4{
+        font-size: 12px;
+        margin: 15px auto;
+    }
+}
+
+div.mail > div.mail-icon{
+    width: 40px;
+    height:40px;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 5px 5px;
+   
+
+    >img{
+        width: 30px;
+        height: 30px;
+        margin: 5px 5px;
+        filter: brightness(0) saturate(100%) invert(73%) sepia(13%) saturate(2132%) hue-rotate(97deg) brightness(89%) contrast(87%);
+    }
+}
+
+
+div.conect-right > div.call{
+    width: 280px;
+    height: 50px;
+    display: flex;
+    >h4{
+        margin: 10px auto;
+    }
+}
+
+div.call > div.call-icon{
+    width: 40px;
+    height:40px;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 5px 5px;
+
+
+    >img{
+        width: 30px;
+        height: 30px;
+        margin: 5px 5px;
+        filter: brightness(0) saturate(100%) invert(73%) sepia(13%) saturate(2132%) hue-rotate(97deg) brightness(89%) contrast(87%);
+    }
+}
+
+
+
+
+div.conect-left  div.name {
+width: 280px;
+height: 50px;
+display: flex;
+ border-bottom: 1px solid lightgray;
+ margin-top: 20px;
+
+
+>img{
+    width:40px;
+    height:40px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(1168%) hue-rotate(335deg) brightness(95%) contrast(72%);
+}
+
+>input{
+    width: 310px;
+    height:50px;
+    padding-right: 5px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background-color:rgb(240, 240, 240) ;
+}
+
+}
+
+div.conect-left  div.name:hover {
+    border-bottom: 3px solid rgb(46, 202, 127);
+    >img{
+        filter: brightness(0) saturate(100%) invert(73%) sepia(13%) saturate(2132%) hue-rotate(97deg) brightness(89%) contrast(87%);
+    }
+
+    >input{
+    border-bottom: 3px solid rgb(46, 202, 127);
+        
+    }
+}
+
+
+div.conect-left  div.email {
+width: 280px;
+height: 50px;
+display: flex;
+ border-bottom: 1px solid lightgray;
+
+>img{
+    width:40px;
+    height:40px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(1168%) hue-rotate(335deg) brightness(95%) contrast(72%);
+}
+
+>input{
+    width: 310px;
+    height:50px;
+    padding-right: 5px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background-color:rgb(240, 240, 240) ;
+}
+
+}
+
+
+div.conect-left  div.email:hover {
+    border-bottom: 3px solid rgb(46, 202, 127);
+    >img{
+        filter: brightness(0) saturate(100%) invert(73%) sepia(13%) saturate(2132%) hue-rotate(97deg) brightness(89%) contrast(87%);
+    }
+
+    >input{
+    border-bottom: 3px solid rgb(46, 202, 127);
+        
+    }
+}
+
+
+div.conect-left  div.pm {
+width: 280px;
+height: 200px;
+display: flex;
+ border-bottom: 1px solid lightgray;
+
+>img{
+    width:40px;
+    height:40px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(1168%) hue-rotate(335deg) brightness(95%) contrast(72%);
+}
+
+>input{
+    width: 310px;
+    height:200px;
+    padding-bottom: 100px;
+    padding-right:10px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background-color:rgb(240, 240, 240) ;
+    
+}
+
+}
+
+  
+div.conect-left  div.pm:hover {
+    border-bottom: 3px solid rgb(46, 202, 127);
+    >img{
+        filter: brightness(0) saturate(100%) invert(73%) sepia(13%) saturate(2132%) hue-rotate(97deg) brightness(89%) contrast(87%);
+    }
+
+    >input{
+    border-bottom: 3px solid rgb(46, 202, 127);
+        
+    }
+}
+
+
+div.conect-left  button{
+width: 100px;
+height: 40px;
+background-color: rgb(46, 202, 127);
+margin: 50px 40px;
+border: none;
+cursor: pointer;
+color: white;
+ }
+
+div.conect-left  button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    
+
+}

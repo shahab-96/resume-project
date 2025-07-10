@@ -1,0 +1,644 @@
+
+
+@media (max-width:576px) {
+
+    div.menu{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position:sticky;
+    top:0;
+    z-index: 200;
+    background-color:rgb(46, 202, 127);
+    
+
+
+
+>input{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    left:20px;
+    display: none;
+    z-index: 100;
+}
+
+label> span > img{
+    width: 40px;
+    height: 40px;
+   filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(23deg) brightness(103%) contrast(103%);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 200;
+    cursor: pointer;
+
+}
+
+
+}
+
+div.menu > div.logo{
+    width: 200px;
+    height: 70px;
+    color: white;
+
+    >h1{
+   position: absolute;
+   top: 15px;
+   right: 20px;
+   font-size: 27px;
+}
+}
+
+div.menu > input[type="checkbox"]:checked ~ div.navbar{
+height: 500px;
+display: flex;
+}
+
+
+
+div.menu > div.navbar{
+ width: 350px;   
+display: none;
+justify-content: center;
+align-items: center;
+background-color:rgb(46, 202, 127) ;
+position: absolute;
+top: 50px;
+left: 0;
+
+
+ 
+>nav>ul{
+ display:flex;
+flex-direction: column;
+    gap: 50px;
+  
+  
+    >a{
+        list-style: none;
+        text-decoration: none;
+        font-size:16px;
+        color: rgb(124, 124, 124); 
+    }   
+}
+
+}
+
+
+#a1{
+    width: 50px;
+    color: black;
+    border-bottom:2px solid  white ;
+}
+
+div.navbar > nav >ul > a >li:hover{
+    width: 50px;
+    color: black;
+    border-bottom:  2px solid white; 
+}
+
+#a2{
+    width: 70px;
+}
+
+
+div.resume-container{
+    width: 90%;
+    height:2600px;
+    background-color:rgb(240, 240, 240);
+    margin-top: 50px ;
+    margin-right: 20px;
+   border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+     border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+div.resume-container > div.prt{
+    width:100%;
+    height:150px;
+    background-color: rgb(46, 202, 127) ;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    padding-top: 30px;
+
+    >h1{
+        font-size:40px;
+        color: white;
+    }
+}
+
+div.resume-container > div.prb{
+width:100%;
+height: 2450px;
+  border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+div.prb > div.chart{
+    width:90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:230px;
+    padding-right: 20px;
+  
+
+    >h2{
+    color: rgb(49, 49, 49);
+    font-size:22px;
+
+    >span{
+        color: rgb(46, 202, 127) ;
+    }
+
+    }
+}
+
+#h2{
+    display: none;
+}
+
+
+div.education-resume-container{
+    width:90%;
+    height: 1600px;
+ 
+}
+
+div.education-resume-container > div.education-resume-right{
+width:80%;
+height:780px;
+border-right: 1px solid darkslategray;
+margin-right: 30px;
+position: relative;
+
+}
+
+
+div.education-resume-container > div.education-resume-left{
+    width:80%;
+height:780px;
+border-right: 1px solid darkslategray;
+margin-right: 30px;
+position: relative;
+
+}
+
+
+div.education-resume-right > div.circel1{
+    width: 15px;
+    height: 15px;
+    border-radius:7.5px;
+    border: 2px solid;
+    border-color: rgb(46, 202, 127) ;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    right:-7px;
+   
+}
+
+
+div.education-resume-right >div.cube1{
+    width:15px;
+    height: 10px;
+    border-top: 2px solid  rgb(46, 202, 127) ;
+    position: absolute;
+    top:56px;
+    right:7px;
+}
+
+
+div.education-resume-content1{
+    width: 250px;
+    height: 200px;
+    background-color:white;
+    position: absolute;
+    top: 30px;
+    right:22px;
+    padding: 20px 10px;
+    border-right: 2px solid rgb(46, 202, 127);
+   border-top: 1px solid lightgray;
+   border-left: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;
+     
+    >h5{
+        margin-top:30px;
+        font-size: 12px;
+
+    }
+
+}
+
+div.education-resume-content1 > div.palace1{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+    >span{
+        color:rgb(46, 202, 127) ;
+    }
+
+    >.uny1{
+        height:20px;
+        border-right: 1px solid darkslategrey;
+        padding-right: 5px;
+          font-size: 16px;
+    }
+}
+
+div.education-resume-right > div.education-resume-content1:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+div.education-resume-right > div.circel2{
+    width: 15px;
+    height: 15px;
+    border-radius:7.5px;
+    border: 2px solid;
+    border-color: rgb(46, 202, 127) ;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    right:-7px;
+   
+}
+
+
+div.education-resume-right >div.cube2{
+    width:15px;
+    height: 10px;
+    border-top: 2px solid  rgb(46, 202, 127) ;
+    position: absolute;
+    top:306px;
+    right:7px;
+}
+
+
+div.education-resume-content2{
+    width:250px;
+    height: 200px;
+    background-color:white;
+    position: absolute;
+    top: 280px;
+    right:22px;
+    padding: 20px 10px;
+    border-right: 2px solid rgb(46, 202, 127);
+   border-top: 1px solid lightgray;
+   border-left: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;
+  
+    >h5{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+}
+
+div.education-resume-content2 > div.palace2{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+    >span{
+        color:rgb(46, 202, 127) ;
+    }
+
+    >.uny2{
+        height:20px;
+        border-right: 1px solid darkslategrey;
+        padding-right: 5px;
+           font-size: 16px;
+    }
+}
+
+div.education-resume-right > div.education-resume-content2:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+div.education-resume-right > div.circel3{
+    width: 15px;
+    height: 15px;
+    border-radius:7.5px;
+    border: 2px solid;
+    border-color: rgb(46, 202, 127) ;
+    background-color: white;
+    position: absolute;
+    top:550px;
+    right:-7px;
+   
+}
+
+
+div.education-resume-right >div.cube3{
+    width: 20px;
+    height: 15px;
+    border-top: 2px solid  rgb(46, 202, 127) ;
+    position: absolute;
+    top:556px;
+    right:7px;
+}
+
+
+div.education-resume-content3{
+    width:250px;
+    height: 200px;
+    background-color:white;
+    position: absolute;
+    top: 530px;
+    right:22px;
+    padding: 20px 10px;
+    border-right: 2px solid rgb(46, 202, 127);
+   border-top: 1px solid lightgray;
+   border-left: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;
+
+   >h4{
+    font-size: 14px;
+   }
+     
+    >h5{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+}
+
+div.education-resume-content3 > div.palace3{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+        font-size: 16px;
+
+    >span{
+        color:rgb(46, 202, 127) ;
+    }
+
+    >.uny3{
+        height:20px;
+        border-right: 1px solid darkslategrey;
+        padding-right: 5px;
+             font-size: 16px;
+    }
+}
+
+
+div.education-resume-right > div.education-resume-content3:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+div.education-resume-left > div.circel4{
+    width: 15px;
+    height: 15px;
+    border-radius:7.5px;
+    border: 2px solid;
+    border-color: rgb(46, 202, 127) ;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    right:-7px;
+   
+}
+
+
+div.education-resume-left >div.cube4{
+    width:15px;
+    height: 10px;
+    border-top: 2px solid  rgb(46, 202, 127) ;
+    position: absolute;
+    top:56px;
+    right:7px;
+}
+
+
+div.education-resume-content4{
+    width:250px;
+    height: 200px;
+    background-color:white;
+    position: absolute;
+    top: 30px;
+    right:22px;
+    padding: 20px 10px;
+    border-right: 2px solid rgb(46, 202, 127);
+   border-top: 1px solid lightgray;
+   border-left: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;
+
+   >h4{
+    font-size: 14px;
+   }
+     
+    >h5{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+   
+}
+
+div.education-resume-content4 > div.palace4{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    font-size:16px;
+
+    >span{
+        color:rgb(46, 202, 127) ;
+    }
+
+    >.uny4{
+        height:20px;
+        border-right: 1px solid darkslategrey;
+        padding-right: 5px;
+        font-size: 16px;
+    }
+}
+
+
+div.education-resume-left > div.education-resume-content4:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+div.ability-container{
+    width: 90%;
+    height: 450px;
+
+}
+
+div.ability-container > div.ability-title{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:120px;
+
+    >h2{
+    color: rgb(49, 49, 49);
+    font-size:22px;
+
+    >span{
+        color: rgb(46, 202, 127) ;
+    }
+
+    }
+}
+
+#h3{
+    display: none;
+}
+
+div.ability-container > div.ability-percent-container{
+    width: 100%;
+    height: 550px;
+   
+}
+
+
+div.ability-percent-container > div.ability-percent-right{
+    width: 90%;
+    height:250px;
+    padding-top:30px;
+   padding-right: 30px ;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ 
+}
+
+
+div.ability-percent-container > div.ability-percent-left{
+    width: 90%;
+    height: 250px;
+    padding-top:30px;
+   padding-right: 30px ;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+
+div.ability-percent-right > div.percent1{
+    width: 280px;
+    height:15px;
+    background-color: white;
+} 
+
+div.percent1 >div.p1{
+    width: 80%;
+    height: 15px;
+    background-color: rgb(46, 202, 127) ;
+}
+
+
+div.ability-percent-right > div.percent2{
+    width: 280px;
+    height:15px;
+    background-color: white;
+} 
+
+div.percent2 >div.p2{
+    width: 40%;
+    height: 15px;
+    background-color: rgb(46, 202, 127) ;
+}
+
+
+div.ability-percent-right > div.percent3{
+    width: 280px;
+    height:15px;
+    background-color:white;
+} 
+
+div.percent3 >div.p3{
+    width:50%;
+    height: 15px;
+    background-color: rgb(46, 202, 127) ;
+}
+
+
+
+div.ability-percent-left > div.percent4{
+    width:280px;
+    height:15px;
+    background-color: white;
+} 
+
+div.percent4 >div.p4{
+    width: 90%;
+    height: 15px;
+    background-color: rgb(46, 202, 127) ;
+}
+
+
+div.ability-percent-left > div.percent5{
+    width:280px;
+    height:15px;
+    background-color: white;
+} 
+
+div.percent5 >div.p5{
+    width: 80%;
+    height: 15px;
+    background-color: rgb(46, 202, 127) ;
+}
+
+
+div.ability-percent-left > div.percent6{
+    width:280px;
+    height:15px;
+    background-color: white;
+} 
+
+div.percent6 >div.p6{
+    width:70%;
+    height: 15px;
+    background-color: rgb(46, 202, 127) ;
+}
+
+
+div.ability-container > button{
+    width: 100px;
+    height: 40px;
+    margin-top: 30px ;
+    margin-right: 200px;
+    border-radius: 5px;
+    transform-origin: center;
+   border: 1px solid rgb(102, 255, 102);
+   background-color:white;
+  >a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+  }  
+}
+
+div.ability-container > button:hover{
+    transform: translateZ(40px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+>a{
+ color:rgb(46, 202, 127) ;
+     
+}  
+}
+
+
+    
+}

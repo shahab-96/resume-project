@@ -1,0 +1,452 @@
+
+
+@media (min-width:768px) and  (max-width:992px) {
+
+    /*menu part*/
+
+
+    div.menu{
+    width: 98%;
+    height: 70px;
+    display: flex;
+    position:sticky;
+    top:0;
+    z-index: 200;
+    background-color:rgb(46, 202, 127);
+    
+
+
+
+>input{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    left:20px;
+    display: none;
+    z-index: 100;
+}
+
+label> span > img{
+    width: 40px;
+    height: 40px;
+   filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(23deg) brightness(103%) contrast(103%);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 200;
+    cursor: pointer;
+
+}
+
+
+}
+
+div.menu > div.logo{
+    width: 200px;
+    height: 70px;
+    color: white;
+
+    >h1{
+   position: absolute;
+   top: 15px;
+   right: 20px;
+   font-size: 27px;
+}
+}
+
+div.menu > input[type="checkbox"]:checked ~ div.navbar{
+height: 500px;
+display: flex;
+}
+
+
+
+div.menu > div.navbar{
+ width: 350px;   
+display: none;
+justify-content: center;
+align-items: center;
+background-color:rgb(46, 202, 127) ;
+position: absolute;
+top: 50px;
+left: 0;
+
+
+ 
+>nav>ul{
+ display:flex;
+flex-direction: column;
+    gap: 50px;
+  
+  
+    >a{
+        list-style: none;
+        text-decoration: none;
+        font-size:16px;
+        color: rgb(189, 189, 189); 
+         
+    }   
+}
+
+}
+
+
+#a1{
+    width: 50px;
+    color: white;
+    border-bottom:2px solid  white ;
+     width: 70px;
+}
+
+div.navbar > nav >ul > a >li:hover{
+    width: 50px;
+    color:white;
+    border-bottom:  2px solid white; 
+}
+
+
+
+/*content part*/
+
+div.designs-container{
+    width: 90%;
+    height: 1600px;
+    background-color:rgb(240, 240, 240);
+    margin: 50px auto;
+   border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+     border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+div.designs-container > div.pdt{
+    width: 100%;
+    height:150px;
+    background-color: rgb(46, 202, 127) ;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    padding-top: 30px;
+
+    >h1{
+        font-size:50px;
+        color: white;
+    }
+}
+
+div.designs-container > div.pdb{
+width:100%;
+height: 1500px;
+padding: 20px;
+  border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+div.pdb > div.design-image-container1{
+    width:95%;
+    height:320px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+div.design-image-container1  div.design-image1{
+    width: 190px;
+    height: 280px;
+     margin: 20px 5px ;
+     transform: translate( 0 , 0 );
+     overflow: hidden;
+   
+
+}
+
+#im1{
+    width: 190px;
+    height: 280px;
+  
+}
+
+div.design-image1 > div.cover1{
+    width: 190px;
+    height: 280px;
+    background-color:rgba(46, 202, 127, 0.767) ;
+    padding: 20px 20px;
+    position: absolute;
+    transition: all 500ms linear;
+    transform-origin: bottom;
+   
+    
+    >h4{
+       color: white;
+    }
+
+    >img{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 240px;
+        left: 20px;
+        filter: brightness(0) saturate(100%) invert(98%) sepia(12%) saturate(244%) hue-rotate(242deg) brightness(114%) contrast(100%);
+    }
+}
+
+div.design-image1 >  #im1:hover +   div.cover1{
+    transform: translatey(-290px);
+}
+
+
+
+div.design-image-container1  div.design-image2{
+    width: 190px;
+    height: 280px;
+    display: flex;
+    margin: 20px 5px;
+    transform: translate( 0 , 0);
+    overflow: hidden;
+    
+
+  
+}
+
+
+#im2{
+     width:190px;
+    height: 280px;
+  
+}
+
+
+div.design-image2 > div.cover2{
+    width:190px;
+    height:280px;
+    background-color:rgba(75, 174, 255, 0.788) ;
+    padding: 20px 20px;
+    position: absolute;
+    left:320px;
+    transition: all 700ms linear;
+    transform-origin:right;
+   
+    
+    >h4{
+       color: white;
+    }
+
+    >img{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 250px;
+        left: 20px;
+        filter: brightness(0) saturate(100%) invert(98%) sepia(12%) saturate(244%) hue-rotate(242deg) brightness(114%) contrast(100%);
+    }
+}
+
+div.design-image2 >  #im2:hover +   div.cover2{
+    transform: translatex(-320px);
+}
+
+
+div.design-image-container1  div.design-image3{
+    width: 190px;
+    height:280px;
+    margin: 20px 5px;
+        display: flex;
+    transform: translate( 0 , 0);
+  overflow: hidden;  
+}
+
+ #im3{
+    width:190px;
+    height:280px;
+ }
+
+
+div.design-image3 > div.cover3{
+    width: 190px;
+    height:280px;
+    background-color:rgba(46, 202, 127, 0.781) ;
+    padding: 20px 20px;
+    position: absolute;
+    left:320px;
+    transition: all 700ms linear;
+    transform-origin: right;
+
+   
+    
+    >h4{
+       color: white;
+    }
+
+    >img{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 240px;
+        left: 20px;
+        filter: brightness(0) saturate(100%) invert(98%) sepia(12%) saturate(244%) hue-rotate(242deg) brightness(114%) contrast(100%);
+    }
+}
+
+div.design-image3 >  #im3:hover +   div.cover3{
+    transform: translatex(-320px);
+}
+
+
+div.pdb > div.design-image-container2{
+      width:95%;
+    height:320px;
+     display: flex;  
+    justify-content: center;
+}
+
+
+
+div.design-image-container2  div.design-image4{
+    width: 190px;
+    height: 280px;
+    margin: 20px 5px;
+    transform:translate(0 , 0);
+    overflow: hidden;
+    
+
+}
+
+#im4{
+    width: 190px;
+    height: 280px;
+  
+}
+
+div.design-image4 > div.cover4{
+    width: 190px;
+    height: 280px;
+    background-color:rgba(46, 202, 127, 0.767) ;
+    padding: 20px 20px;
+    position: absolute;
+    transition: all 500ms linear;
+    transform-origin: bottom;
+
+   
+    
+    >h4{
+       color: white;
+    }
+
+    >img{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 240px;
+        left: 20px;
+        filter: brightness(0) saturate(100%) invert(98%) sepia(12%) saturate(244%) hue-rotate(242deg) brightness(114%) contrast(100%);
+    }
+}
+
+
+div.design-image4 >  #im4:hover +   div.cover4{
+    transform: translatey(-290px);
+  
+}
+
+
+div.design-image-container2  div.design-image5{
+    width: 190px;
+    height: 280px;
+    margin: 20px 5px;
+    display: flex;
+    transform: translate( 0 , 0);
+    overflow: hidden;
+  
+}
+
+
+#im5{
+    width: 190px;
+    height:280px;
+  
+}
+
+
+div.design-image5 > div.cover5{
+    width: 190px;
+    height: 280px;
+    background-color:rgba(75, 174, 255, 0.788) ;
+    padding: 20px 20px;
+    position: absolute;
+    left:320px;
+    transition: all 700ms linear;
+    transform-origin:right;
+   
+    
+    >h4{
+       color: white;
+    }
+
+    >img{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 240px;
+        left: 20px;
+        filter: brightness(0) saturate(100%) invert(98%) sepia(12%) saturate(244%) hue-rotate(242deg) brightness(114%) contrast(100%);
+    }
+}
+
+div.design-image5 >  #im5:hover +   div.cover5{
+    transform: translatex(-320px);
+}
+
+
+
+div.design-image-container2  div.design-image6{
+    width:190px;
+    height:280px;
+    margin: 20px 5px;
+        display: flex;
+    transform: translate( 0 , 0);
+    overflow: hidden;
+    
+}
+
+ #im6{
+    width: 190px;
+    height: 280px;
+ }
+
+
+div.design-image6 > div.cover6{
+    width: 190px;
+    height: 280px;
+    background-color:rgba(46, 202, 127, 0.781) ;
+    padding: 20px 20px;
+    position: absolute;
+    left:320px;
+    transition: all 700ms linear;
+    transform-origin: right;
+
+   
+    
+    >h4{
+       color: white;
+    }
+
+    >img{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 240px;
+        left: 20px;
+        filter: brightness(0) saturate(100%) invert(98%) sepia(12%) saturate(244%) hue-rotate(242deg) brightness(114%) contrast(100%);
+    }
+}
+
+div.design-image6 >  #im6:hover +   div.cover6{
+    transform: translatex(-320px);
+}
+
+
+
+    
+}
